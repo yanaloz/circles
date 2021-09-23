@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#canvasTop {
+    position: absolute;
+    z-index: 20;
+    left: 0;
+    top: 0;
+}
+
+#canvasBottom {
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    background-color: rgba(248, 247, 208, 0.8);
+}
+
